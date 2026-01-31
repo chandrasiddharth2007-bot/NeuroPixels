@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
 
-from latest_src.dataset import SegmentationDataset
+from dataset import SegmentationDataset
 from model import get_model
 from transform import get_val_transforms
 
